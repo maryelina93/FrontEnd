@@ -1,0 +1,11 @@
+body{
+    background: #f7d0c0;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+.bg-pink{
+    background-color: #f1b38f;
+} /*color de fondo de navbar*/
+
