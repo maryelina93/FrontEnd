@@ -1,11 +1,130 @@
 body{
-    background: #f7d0c0;
+    background: #eeaad7;
     text-align: center;
+    color: #c7104d;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     
 }
 
 .bg-pink{
-    background-color: #f1b38f;
+    background-color: #230f7c69;
 } /*color de fondo de navbar*/
 
+.card-body{
+    color: #c7104d;
+    align-content: center;
+}
+.card{
+    --bs-card-bg: #ee6fa4;
+}
+.list-group-item {
+    position: relative;
+    display: block;
+    padding: var(--bs-list-group-item-padding-y) var(--bs-list-group-item-padding-x);
+    color: #f1b3c8;
+    text-decoration: none;
+    background-color: #8776d169;
+    border: #eeaad7 solid #f0afc5;
+}/* CONTENEDOR DE PRESENTACION Y FOTO DE PERFIL*/ 
+/*linea de tiempo*/
+.linea-tiempo {
+    position: relative;
+    width: 500px;
+    max-width: 95vw;
+    height: 100%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #9e0c6d;
+  }
+  
+  .linea-tiempo::before {
+    content: '';
+    position: absolute;
+    width: 3px;
+    background-color: #000;
+    left: 175%;
+    height: 100%;
+    border-radius: 10px;
+  }
+  
+  .momento {
+    position: relative;
+    width: 70%;
+    box-sizing: border-box;
+    left: 97%
+  }
+  
+  .momento:nth-child(even) {
+    left: 183%;
+  }
+  
+  .momento::after {
+    content: '';
+    position: absolute;
+    top: calc(50% + 10px);
+    right: calc(-11.11% - 11.5px);
+    height: 20px;
+    width: 20px;
+    background-color: #000;
+    border-radius: 50%;
+  }
+  
+  .momento:nth-child(even)::after {
+    left: calc(-11.11% - 8.5px);
+  }
+  
+  .momento h3 {
+    margin: 10px 0px;
+    font-size: 30px;
+    text-align: center;
+    color: #110f0f;
+  }
+  
+  .momento h2 {
+    margin: 10px 0px;
+    font-size: 30px;
+    text-align: center;
+    color: #494040;
+  }
+  .momento .descripcion {
+    background-color: #eeccd9;
+    border-radius: 10px;
+    padding: 10px;
+    line-height: 30px;
+    font-size: 20px;
+  }
+  
+  .momento .descripcion::after {
+    content: '';
+    position: absolute;
+    right: -10px;
+    top: calc(50% + 10px);
+    height: 0;
+    width: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 12px solid #df2773;
+  }
+  
+  .momento:nth-child(even) .descripcion {
+    background-color: #eeccd9;
+    color: #9e0c6d;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+  .momento:nth-child(even) .descripcion::after{
+    left: -10px;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-right: 12px solid #ec216f;
+    border-left: none;
+  }
+/*fin linea de tiempo*/
+/*cajas contenedoras educacion*/
+.list-group{
+    text-align: center;
+    display: flex;
+   align-items: center;
+   justify-content: center;
+   min-height: 100vh;
+ } /*fin cajas contenedoras de educacion*/
+ 

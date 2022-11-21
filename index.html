@@ -12,30 +12,170 @@
 <body>
     <section id="navbar"><!--Inicio seccion navbar-->
         
-    </section><!--Final seccion navbar-->
+    
     <nav class="navbar bg-pink" bg-color>
         <div class="container">
           <a class="navbar-brand" href="https://argentinaprograma.inti.gob.ar/" target="_blank" >
             <img class="letra-negra" src="assets/img/arg-programa.png" alt="logo argentina programa" width="300" height="100">
-          </a>> <!--logo AP-->
-          <div class="d-grid gap-2 d-md-flex justify-content-md-end">
-            <button class="btn" type="button"> Iniciar Sesión</button>
-            <button class="btn" type="button">Button</button>
+          </a> <!--logo AP-->
+<!-- Button trigger modal -->
+<button type="button" class="btn bg-pink" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  <i class="fa-solid fa-person-circle-check fa-2xl" style="--fa-animation-duration: 0.5s;" ></i>
+</button>
+<button type="button" class="btn bg-pink" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  <i class="fa-solid fa-person-circle-xmark fa-2xl" style="--fa-animation-duration: 0.5s;"></i>
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  
+
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Iniciar Sesión</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="form-floating mb-3">
+          <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+          <label for="floatingInput">Email</label>
+        </div>
+        <div class="form-floating">
+          <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+          <label for="floatingPassword">Contraseña</label>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Entrar</button>
+        <button type="button" class="btn btn-primary">Cancelar</button>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</nav>
+</section><!--Final seccion navbar-->
+<section id=banner> <!--inicio seccion banner-->
+    <img src="assets/img/ciudad de cba.jpg" alt="Ciudad de Cordoba" class="w-100">
+   </section><!--final seccion banner-->
+   <section class="sobre mi mt-5"><!--Inicio seccion sobre mi-->
+    <h2 style="font-size: xxx-large"> <strong> SOBRE MÍ </strong> </h2>
+    <hr> <!--esto es una linea-->
+    <ul class="list-group list-group-horizontal">
+      <li class="list-group-item"><div class="card" style="width: 18rem;">
+        <img src="assets/img/cv.jpg" class="card-img-top" alt="foto mary">
+        <div class="card-body">
+          <h5 class="card-body"> <strong>Marisol Elina Hartmann</strong> </h5>
+          <p class="card-body"><p> Córdoba Capital, Argentina<br>Edad:29<br>Email: mary_hartmann@hotmail.com<br>Cel: 3516249977</p>
+        </div>
+        <ul class="card-body">
+          <li class="card-body"><a href="https://codepen.io/maryelina93" target="_blank" class="enlace"><i class="fa-brands fa-codepen fa-2x"></i></a></li> <!--boton codepen-->
+          <li class="card-body"><a href="https://www.linkedin.com/in/mary-hartmann-355424250/" target="_blank" class="enlace" ><i class="fa-brands fa-linkedin fa-2x"></i></a></li> <!--boton linkedin-->
+          <li class="card-body"><a href="https://github.com/maryelina93" target="_blank" class="enlace"><i class="fa-brands fa-github fa-2x"></i></a></li> <!--boton github-->
+        </ul>
+      </div></li>
+      <li class="list-group-item"> <h3 class="card-body pt-5 mt-5" style="font-size:xxx-large " > Desarrolladora <br>Full Stack Jr.</h3>
+        <p class="card-body mt-5 pt-5" style="font-size: xx-large"> <strong> Mi nombre es Marisol. Recientemente comencé a sentirme muy entusiasmada con todo el mundo de la programación web, estoy muy ansiosa por adquirir más conocimientos en este campo. Por esta razón, estoy buscando compañías que puedan ofrecerme un lugar entre sus desarrolladores. Me gustaría encontrar un trabajo de tiempo completo que me permita seguir creciendo tanto en lo personal e intelectual como en lo laboral para asi cumplir los objetivos que se me vayan presentando y estoy muy interesada en poder aportar todas mis capacidades y conocimientos a la empresa.</strong></p></li>
+    </ul>
+    </section><!--Final seccion sobre mi-->
+    <section id="experiencia laboral mt-5 pt-5 bt-5"><!--Inicio seccion experiencia laboral-->
+      <h2 style="font-size: xxx-large">EXPERIENCIA LABORAL </h2>
+      <hr> <!--esto es una linea-->
+           <!--inicio linea del tiempo-->
+           <div class="linea-tiempo">
+            <div class="momento">
+              <h3>Enero 2019 - Actualidad</h3>
+              <div class="descripcion">
+                <h2>Receso por maternidad</h2>
+              </div>
+            </div>
+            <div class="momento">
+              <h3>Abril 2017 - Enero 2019</h3>
+              <div class="descripcion">
+                <h2>Empleada, encargada de limpieza y
+                    mantenimiento.</h2>
+                  <p>Experiencia en:
+                    <ul>
+                      <li >Edificios</li>
+                      <li >Shopping</li>
+                      <li >Fabrica textil</li>
+                      <li >Prestadores de servicios</li>
+                      <li >Finales de obra</li>
+                    </ul>
+                      <h2>Referencias:Fabiana
+                        Tissera, Supervisora: cel
+                        (351) 7156016 </h2></p>
+              </div>
+            </div>
+            <div class="momento">
+              <h3>Enero 2007 - Enero 2017</h3>
+              <div class="descripcion">
+                <h2>Panadería "Alcira"</h2>
+                    <p>Puesto en operario de producción de panificación y repostería. (2016-2017)
+                      Tareas administrativas generales y atención al público. (2014-2015)
+                      Transporte y distribución zonal de productos de panificación. (2011-2014)
+                      Puesto en operario de producción de panificación y repostería. (2007-2014)
+                      Experiencia en:</p>
+                      <ul>
+                        <li>Elaboración de diferentes productos panificados.</li>
+                        <li>Elaboración de masitería fina y repostería.</li>
+                        <li>Estibación y horneado de los productos.</li>
+                        <li>Manipulación de maquinarias y herramientas de trabajo.</li>
+                        <li>Atención al cliente.</li>
+                      </ul>
+              </div>
+            </div><!--final linea de tiempo-->
+    </section> <!--Final seccion experiencia laboral-->
+
+
+  <section class="mt-5" id="educacion"><!--Inicio seccion educacion-->
+      <h2 style="font-size: xxx-large">Educación</h2> 
+     <hr> <!--esto es una linea-->
+      <div>
+        <ul class="list-group list-group-horizontal">
+        <li class="cuadros-informativos"> <!--cuadro1-->
+          <div class="card" style="width: 24rem;">
+          <img src="assets/img/icono-formacion-academica-cv-11550107023hngxhmxufd.png" class="card-img-top " alt="Formacion-academica"> <!--icono academicas-->
+          <div class="card-body">
+            <h5 class="formacion"> <strong>Formación académica</strong></h5>
+            <a href="formacion academica.html" class="btn btn-outline" role="button" target="_blank">
+              <button> Entrar</button>
+            </a>
           </div>
         </div>
-      </nav>
+      </li>
+        <li class="cuadros-informativos"> <!--cuadro2-->
+          <div class="card" style="width: 24rem;">
+            <img src="assets/img/cursos.png" class="card-img-top" alt="Cursos"> <!--icono cursos-->
+            <div class="card-body">
+              <h5 class="cursos"> <strong>Cursos de capacitación</strong></h5>
+              <a href="cursos.html" class="btn btn-outline" role="button" target="_blank">
+              <button>Entrar</button>
+            </a>
+            </div>
+          </div>
+        </li>
+        <li class="cuadros-informativos"> <!--cuadro3-->
+          <div class="card" style="width: 24rem;">
+            <img src="assets/img/certificados.png" class="card-img-top" alt="Cursos"> <!--icono cursos-->
+            <div class="card-body">
+              <h5 class="cursos"> <strong>Certificados</strong></h5>
+              <a href="certificados.html" class="btn btn-outline" role="button" target="_blank">
+              <button>Entrar</button>
+            </a>
+            </div>
+          </div>
+        </li>
+        
+      </ul>
+      </div>
+
+      </div>
+  </section><!--Final seccion educacion-->
 
 
-      <nav class="navbar navbar-expand-lg bg-light">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">Navbar</a>
-          <button class="" type="button" data-bs-toggle="collapse" data-bs-target="#">
-          </button>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <i class="fa-solid fa-user-lock fa-2x"></i> &nbsp <strong>Iniciar sesión</strong> 
-          </button>
-        </div>
-      </nav>
+
 <!-- JavaScript Bundle with Popper -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
 
